@@ -60,7 +60,7 @@ const sweetCategoriesMapping = {
 async function loadMenuData() {
     try {
         // Load restaurant menu
-        const restaurantResponse = await fetch('for-you-cafe-and-restaurant/data/kitchen.json');
+        const restaurantResponse = await fetch('data/kitchen.json');
         if (!restaurantResponse.ok) {
             throw new Error(`HTTP error! status: ${restaurantResponse.status}`);
         }
