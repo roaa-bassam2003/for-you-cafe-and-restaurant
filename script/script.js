@@ -74,7 +74,7 @@ async function loadMenuData() {
 
     try {
         // Load cafe menu
-        const cafeResponse = await fetch('for-you-cafe-and-restaurant/data/bar.json');
+        const cafeResponse = await fetch('data/bar.json');
         if (!cafeResponse.ok) {
             throw new Error(`HTTP error! status: ${cafeResponse.status}`);
         }
