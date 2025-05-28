@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick You - Restaurant & Cafe</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <!-- header -->
+    <header id="top-header">
+        <div class="container">
+            <div class="header-content">
+                <img src="../img/logo_2.PNG" alt="logo">
+                <div class="logo">cafe & restaurant</div>
+                <button class="nav-btn" onclick="showHome()">Home</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Pick You</h1>
+            <p>Experience the finest dining with our exceptional menu of delicious food and premium beverages</p>
+        </div>
+    </section>
+
+    <main>
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="container">
+                <h1>Welcome to Pick You</h1>
+
+                <p>Choose what suits you from the special menu of food and drinks</p>
+                <div class="home-buttons">
+                    <button class="home-btn" onclick="showRestaurantMenu()">Restaurant menu</button>
+                    <button class="home-btn" onclick="showCafeMenu()">Cafe menu</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Restaurant Menu Section -->
+        <section class="menu" id="restaurant-menu">
+            <div class="container">
+                <h2 id="header-menu">Restaurant Menu</h2>
+
+                <div class="categories" id="categories">
+                    <!-- Categories will be populated by JavaScript -->
+                </div>
+                <div class="menu-items" id="menu-items">
+                    <button class="back-btn" onclick="showCategories()">← Back to categories</button>
+                    <div id="category-title"></div>
+                    <!-- Size Filter Tabs for specific category -->
+                    <div class="size-filters" id="category-size-filters">
+                        <!-- Size tabs will be populated by JavaScript -->
+                    </div>
+                    <div id="items-list"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cafe Menu Section -->
+<section class="menu" id="cafe-menu">
+    <div class="container">
+        <h2 id="cafe-header-menu">cafe Menu</h2>
+
+        <div class="categories" id="cafe-categories">
+            <!-- Categories will be populated by JavaScript -->
+        </div>
+        <div class="menu-items" id="cafe-menu-items">
+            <button class="back-btn" onclick="showCategories()">← Back to categories</button>
+            <div id="cafe-category-title"></div>
+            <!-- Size Filter Tabs for specific category -->
+            <div class="size-filters" id="cafe-category-size-filters">
+                <!-- Size tabs will be populated by JavaScript -->
+            </div>
+            <div id="cafe-items-list"></div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Pick You</h3>
+                    <p>A distinctive restaurant and cafe serving the best dishes and drinks in a wonderful atmosphere.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact information</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-phone-volume"></i>  0683339061</li>
+                        <li><i class="fa-solid fa-phone"></i>  01055009920</li>
+                        <!-- <li>📧 Mail: info@pickyou.com</li> -->
+                        <li><i class="fa-solid fa-location-dot"></i> Al-khazan street , El Arish, Egypt</li>
+
+                        <li>
+                            <i class="fa-brands fa-instagram"></i> 
+                            <a href="https://www.instagram.com/pi_ck_you?igsh=NzFsZ3VnNTY4MzM4" target="_blank"
+                                rel="noopener noreferrer" style="text-decoration: none;color: #ffffff;">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Working hours</h3>
+                    <ul>
+                        <li>Saturday - Friday: 9:00 AM - 12:00 PM</li>
+                        <li>All Days</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pick You All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script/script.js"></script>
+</body>
+
+</html>

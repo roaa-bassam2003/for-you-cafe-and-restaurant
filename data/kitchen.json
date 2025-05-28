@@ -1,0 +1,1352 @@
+{
+    "menu": [
+        {
+            "id": 85,
+            "nameArabic": "بيتزا مفروم",
+            "price": 85.00,
+            "categoryArabic": "بيتزا  لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "S"
+        },
+        {
+            "id": 86,
+            "nameArabic": "مكرونه نجرسكو",
+            "price": 105.00,
+            "categoryArabic": "مكرونة وايت صوص",
+            "categoryEnglish": "Pasta white",
+            "size": "S"
+        },
+        {
+            "id": 87,
+            "nameArabic": "مكرونه نجرسكو",
+            "price": 165.00,
+            "categoryArabic": "مكرونة وايت صوص",
+            "categoryEnglish": "Pasta white",
+            "size": "M"
+        },
+        {
+            "id": 88,
+            "nameArabic": "مكرونه الفريدو",
+            "price": 100.00,
+            "categoryArabic": "مكرونة وايت صوص",
+            "categoryEnglish": "Pasta white",
+            "size": "S"
+        },
+        {
+            "id": 89,
+            "nameArabic": "مكرونه الفريدو",
+            "price": 155.00,
+            "categoryArabic": "مكرونة وايت صوص",
+            "categoryEnglish": "Pasta white",
+            "size": "M"
+        },
+        {
+            "id": 90,
+            "nameArabic": "مكرونه السجق",
+            "price": 95.00,
+            "categoryArabic": "مكرونة وايت صوص",
+            "categoryEnglish": "Pasta white",
+            "size": "S"
+        },
+        {
+            "id": 91,
+            "nameArabic": "مكرونه السجق",
+            "price": 145.00,
+            "categoryArabic": "مكرونة وايت صوص",
+            "categoryEnglish": "Pasta white",
+            "size": "M"
+        },
+        {
+            "id": 92,
+            "nameArabic": "مكرونه جمبري",
+            "price": 130.00,
+            "categoryArabic": "مكرونة وايت صوص",
+            "categoryEnglish": "Pasta white",
+            "size": "S"
+        },
+        {
+            "id": 93,
+            "nameArabic": "مكرونه جمبري",
+            "price": 185.00,
+            "categoryArabic": "مكرونة وايت صوص",
+            "categoryEnglish": "Pasta white",
+            "size": "M"
+        },
+        {
+            "id": 94,
+            "nameArabic": "مكرونه مفروم",
+            "price": 95.00,
+            "categoryArabic": "مكرونه Red صوص",
+            "categoryEnglish": "Pasta red",
+            "size": "S"
+        },
+        {
+            "id": 95,
+            "nameArabic": "مكرونه مفروم",
+            "price": 155.00,
+            "categoryArabic": "مكرونه Red صوص",
+            "categoryEnglish": "Pasta red",
+            "size": "M"
+        },
+        {
+            "id": 96,
+            "nameArabic": "مكرونه مشكل لحوم",
+            "price": 115.00,
+            "categoryArabic": "مكرونه Red صوص",
+            "categoryEnglish": "Pasta red",
+            "size": "S"
+        },
+        {
+            "id": 97,
+            "nameArabic": "مكرونه مشكل لحوم",
+            "price": 170.00,
+            "categoryArabic": "مكرونه Red صوص",
+            "categoryEnglish": "Pasta red",
+            "size": "M"
+        },
+        {
+            "id": 98,
+            "nameArabic": "مكرونه سوبر لحوم",
+            "price": 100.00,
+            "categoryArabic": "مكرونه Red صوص",
+            "categoryEnglish": "Pasta red",
+            "size": "S"
+        },
+        {
+            "id": 99,
+            "nameArabic": "مكرونه سوبر لحوم",
+            "price": 160.00,
+            "categoryArabic": "مكرونه Red صوص",
+            "categoryEnglish": "Pasta red",
+            "size": "M"
+        },
+        {
+            "id": 100,
+            "nameArabic": "مكرونه مشروم",
+            "price": 95.00,
+            "categoryArabic": "مكرونه Red صوص",
+            "categoryEnglish": "Pasta red",
+            "size": "S"
+        },
+        {
+            "id": 101,
+            "nameArabic": "مكرونه مشروم",
+            "price": 140.00,
+            "categoryArabic": "مكرونه Red صوص",
+            "categoryEnglish": "Pasta red",
+            "size": "M"
+        },
+        {
+            "id": 102,
+            "nameArabic": "بيتزا مفروم",
+            "price": 135.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "M"
+        },
+        {
+            "id": 103,
+            "nameArabic": "بيتزا مفروم",
+            "price": 185.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "L"
+        },
+        {
+            "id": 104,
+            "nameArabic": "بيتزا مفروم",
+            "price": 225.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "XL"
+        },
+        {
+            "id": 105,
+            "nameArabic": "بيتزا مشكل لحوم",
+            "price": 95.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "S"
+        },
+        {
+            "id": 106,
+            "nameArabic": "بيتزا مشكل لحوم",
+            "price": 150.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "M"
+        },
+        {
+            "id": 107,
+            "nameArabic": "بيتزا مشكل لحوم",
+            "price": 195.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "L"
+        },
+        {
+            "id": 108,
+            "nameArabic": "بيتزا مشكل لحوم",
+            "price": 245.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "XL"
+        },
+        {
+            "id": 109,
+            "nameArabic": "بيتزا سوبر لحوم",
+            "price": 90.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "S"
+        },
+        {
+            "id": 110,
+            "nameArabic": "بيتزا سوبر لحوم",
+            "price": 145.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "M"
+        },
+        {
+            "id": 111,
+            "nameArabic": "بيتزا سوبر لحوم",
+            "price": 180.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "L"
+        },
+        {
+            "id": 112,
+            "nameArabic": "بيتزا سوبر لحوم",
+            "price": 230.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "XL"
+        },
+        {
+            "id": 113,
+            "nameArabic": "بيتزا سجق",
+            "price": 85.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "S"
+        },
+        {
+            "id": 114,
+            "nameArabic": "بيتزا سجق",
+            "price": 135.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "M"
+        },
+        {
+            "id": 115,
+            "nameArabic": "بيتزا سجق",
+            "price": 165.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "L"
+        },
+        {
+            "id": 116,
+            "nameArabic": "بيتزا سجق",
+            "price": 215.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "XL"
+        },
+        {
+            "id": 117,
+            "nameArabic": "بيتزا هوت دوج",
+            "price": 85.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "S"
+        },
+        {
+            "id": 118,
+            "nameArabic": "بيتزا هوت دوج",
+            "price": 130.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "M"
+        },
+        {
+            "id": 119,
+            "nameArabic": "بيتزا هوت دوج",
+            "price": 165.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "L"
+        },
+        {
+            "id": 120,
+            "nameArabic": "بيتزا هوت دوج",
+            "price": 215.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "XL"
+        },
+        {
+            "id": 121,
+            "nameArabic": "بيتزا سلامي",
+            "price": 95.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "S"
+        },
+        {
+            "id": 122,
+            "nameArabic": "بيتزا سلامي",
+            "price": 145.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "M"
+        },
+        {
+            "id": 123,
+            "nameArabic": "بيتزا سلامي",
+            "price": 185.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "L"
+        },
+        {
+            "id": 124,
+            "nameArabic": "بيتزا سلامي",
+            "price": 235.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "XL"
+        },
+        {
+            "id": 125,
+            "nameArabic": "بيتزا بيبروني",
+            "price": 95.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "S"
+        },
+        {
+            "id": 126,
+            "nameArabic": "بيتزا بيبروني",
+            "price": 145.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "M"
+        },
+        {
+            "id": 127,
+            "nameArabic": "بيتزا بيبروني",
+            "price": 185.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "L"
+        },
+        {
+            "id": 128,
+            "nameArabic": "بيتزا بيبروني",
+            "price": 235.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "XL"
+        },
+        {
+            "id": 129,
+            "nameArabic": "بيتزا بسطرمه",
+            "price": 90.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "S"
+        },
+        {
+            "id": 130,
+            "nameArabic": "بيتزا بسطرمه",
+            "price": 140.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "M"
+        },
+        {
+            "id": 131,
+            "nameArabic": "بيتزا بسطرمه",
+            "price": 180.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "L"
+        },
+        {
+            "id": 132,
+            "nameArabic": "بيتزا بسطرمه",
+            "price": 230.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "XL"
+        },
+        {
+            "id": 133,
+            "nameArabic": "بيتزا تشيز برجر  بلدي",
+            "price": 100.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "S"
+        },
+        {
+            "id": 134,
+            "nameArabic": "بيتزا تشيز برجر بلدي",
+            "price": 145.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "M"
+        },
+        {
+            "id": 136,
+            "nameArabic": "بيتزا تشيز برجر بلدي",
+            "price": 195.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "L"
+        },
+        {
+            "id": 137,
+            "nameArabic": "بيتزا تشيز برجر بلدي",
+            "price": 245.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "XL"
+        },
+        {
+            "id": 138,
+            "nameArabic": "بيتزا مشروم",
+            "price": 90.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "S"
+        },
+        {
+            "id": 139,
+            "nameArabic": "بيتزا مشروم",
+            "price": 140.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "M"
+        },
+        {
+            "id": 140,
+            "nameArabic": "بيتزا مشروم",
+            "price": 165.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "L"
+        },
+        {
+            "id": 141,
+            "nameArabic": "بيتزا مشروم",
+            "price": 200.00,
+            "categoryArabic": "بيتزا لحوم",
+            "categoryEnglish": "Meat pizza",
+            "size": "XL"
+        },
+        {
+            "id": 142,
+            "nameArabic": "اضافات لحوم",
+            "price": 25.00,
+            "categoryArabic": "اضافات",
+            "categoryEnglish": "Extras Meat",
+            "size": "M"
+        },
+        {
+            "id": 143,
+            "nameArabic": "اضافات لحوم",
+            "price": 45.00,
+            "categoryArabic": "اضافات",
+            "categoryEnglish": "Extras Meat",
+            "size": "L"
+        },
+        {
+            "id": 144,
+            "nameArabic": "اضافات لحوم",
+            "price": 75.00,
+            "categoryArabic": "اضافات",
+            "categoryEnglish": "Extras Meat",
+            "size": "XL"
+        },
+        {
+            "id": 145,
+            "nameArabic": "مارجريتا",
+            "price": 65.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "S"
+        },
+        {
+            "id": 146,
+            "nameArabic": "مارجريتا",
+            "price": 90.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "M"
+        },
+        {
+            "id": 147,
+            "nameArabic": "مارجريتا",
+            "price": 130.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "L"
+        },
+        {
+            "id": 148,
+            "nameArabic": "مارجريتا",
+            "price": 160.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "XL"
+        },
+        {
+            "id": 149,
+            "nameArabic": "بيتزا رومي",
+            "price": 80.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "S"
+        },
+        {
+            "id": 150,
+            "nameArabic": "بيتزا رومي",
+            "price": 125.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "M"
+        },
+        {
+            "id": 151,
+            "nameArabic": "بيتزا رومي",
+            "price": 145.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "L"
+        },
+        {
+            "id": 152,
+            "nameArabic": "بيتزا رومي",
+            "price": 175.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "XL"
+        },
+        {
+            "id": 153,
+            "nameArabic": "بيتزا تشيز بدون خضار",
+            "price": 65.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "S"
+        },
+        {
+            "id": 154,
+            "nameArabic": "بيتزا تشيز بدون خضار",
+            "price": 90.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "M"
+        },
+        {
+            "id": 155,
+            "nameArabic": "بيتزا تشيز بدون خضار",
+            "price": 130.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "L"
+        },
+        {
+            "id": 156,
+            "nameArabic": "بيتزا تشيز بدون خضار",
+            "price": 160.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "XL"
+        },
+        {
+            "id": 157,
+            "nameArabic": "بيتزا كيري",
+            "price": 85.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "S"
+        },
+        {
+            "id": 158,
+            "nameArabic": "بيتزا كيري",
+            "price": 130.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "M"
+        },
+        {
+            "id": 159,
+            "nameArabic": "بيتزا كيري",
+            "price": 150.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "L"
+        },
+        {
+            "id": 160,
+            "nameArabic": "بيتزا كيري",
+            "price": 185.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "XL"
+        },
+        {
+            "id": 161,
+            "nameArabic": "بيتزا فلامنك",
+            "price": 90.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "S"
+        },
+        {
+            "id": 162,
+            "nameArabic": "بيتزا فلامنك",
+            "price": 140.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "M"
+        },
+        {
+            "id": 163,
+            "nameArabic": "بيتزا فلامنك",
+            "price": 160.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "L"
+        },
+        {
+            "id": 164,
+            "nameArabic": "بيتزا فلامنك",
+            "price": 190.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "XL"
+        },
+        {
+            "id": 165,
+            "nameArabic": "بيتزا مشكل جبن",
+            "price": 100.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "S"
+        },
+        {
+            "id": 166,
+            "nameArabic": "بيتزا مشكل جبن",
+            "price": 150.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "M"
+        },
+        {
+            "id": 167,
+            "nameArabic": "بيتزا مشكل جبن",
+            "price": 175.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "L"
+        },
+        {
+            "id": 168,
+            "nameArabic": "بيتزا مشكل جبن",
+            "price": 225.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "XL"
+        },
+        {
+            "id": 169,
+            "nameArabic": "بيتزا بيك يو",
+            "price": 110.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "S"
+        },
+        {
+            "id": 170,
+            "nameArabic": "بيتزا بيك يو",
+            "price": 150.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "M"
+        },
+        {
+            "id": 171,
+            "nameArabic": "بيتزا بيك يو",
+            "price": 175.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "L"
+        },
+        {
+            "id": 172,
+            "nameArabic": "بيتزا بيك يو",
+            "price": 215.00,
+            "categoryArabic": "بيتزا جبن",
+            "categoryEnglish": "Pizza cheese",
+            "size": "XL"
+        },
+        {
+            "id": 173,
+            "nameArabic": "اضافات جبن",
+            "price": 15.00,
+            "categoryArabic": "اضافات",
+            "categoryEnglish": "Extras cheese",
+            "size": "S"
+        },
+        {
+            "id": 174,
+            "nameArabic": "اضافات جبن",
+            "price": 25.00,
+            "categoryArabic": "اضافات",
+           "categoryEnglish": "Extras cheese",
+            "size": "M"
+        },
+        {
+            "id": 175,
+            "nameArabic": "اضافات جبن",
+            "price": 35.00,
+            "categoryArabic": "اضافات",
+            "categoryEnglish": "Extras cheese",
+            "size": "L"
+        },
+        {
+            "id": 176,
+            "nameArabic": "اضافات جبن",
+            "price": 45.00,
+            "categoryArabic": "اضافات",
+            "categoryEnglish": "Extras cheese",
+            "size": "XL"
+        },
+        {
+            "id": 177,
+            "nameArabic": "بيتزا فاهيتا",
+            "price": 100.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "S"
+        },
+        {
+            "id": 178,
+            "nameArabic": "بيتزا فاهيتا",
+            "price": 130.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "M"
+        },
+        {
+            "id": 179,
+            "nameArabic": "بيتزا فاهيتا",
+            "price": 180.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "L"
+        },
+        {
+            "id": 180,
+            "nameArabic": "بيتزا فاهيتا",
+            "price": 240.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "XL"
+        },
+        {
+            "id": 181,
+            "nameArabic": "بيتزا تشكن باربيكيو",
+            "price": 100.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "S"
+        },
+        {
+            "id": 182,
+            "nameArabic": "بيتزا تشكن باربيكيو",
+            "price": 140.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "M"
+        },
+        {
+            "id": 183,
+            "nameArabic": "بيتزا تشكن باربيكيو",
+            "price": 185.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "L"
+        },
+        {
+            "id": 184,
+            "nameArabic": "بيتزا تشكن باربيكيو",
+            "price": 245.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "XL"
+        },
+        {
+            "id": 185,
+            "nameArabic": "بيتزا تشكن رانش",
+            "price": 100.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "S"
+        },
+        {
+            "id": 186,
+            "nameArabic": "بيتزا تشكن رانش",
+            "price": 140.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "M"
+        },
+        {
+            "id": 187,
+            "nameArabic": "بيتزا تشكن رانش",
+            "price": 185.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "L"
+        },
+        {
+            "id": 188,
+            "nameArabic": "بيتزا تشكن رانش",
+            "price": 245.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "XL"
+        },
+        {
+            "id": 189,
+            "nameArabic": "بيتزا فراخ بانيه",
+            "price": 90.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "S"
+        },
+        {
+            "id": 190,
+            "nameArabic": "بيتزا فراخ بانيه",
+            "price": 130.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "M"
+        },
+        {
+            "id": 191,
+            "nameArabic": "بيتزا فراخ بانيه",
+            "price": 165.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "L"
+        },
+        {
+            "id": 192,
+            "nameArabic": "بيتزا فراخ بانيه",
+            "price": 210.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "XL"
+        },
+        {
+            "id": 193,
+            "nameArabic": "بيتزا شيش طاووق",
+            "price": 95.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "S"
+        },
+        {
+            "id": 194,
+            "nameArabic": "بيتزا شيش طاووق",
+            "price": 135.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "M"
+        },
+        {
+            "id": 195,
+            "nameArabic": "بيتزا شيش طاووق",
+            "price": 170.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "L"
+        },
+        {
+            "id": 196,
+            "nameArabic": "بيتزا شيش طاووق",
+            "price": 215.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "XL"
+        },
+        {
+            "id": 197,
+            "nameArabic": "بيتزا استربس",
+            "price": 95.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "S"
+        },
+        {
+            "id": 198,
+            "nameArabic": "بيتزا استربس",
+            "price": 135.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "M"
+        },
+        {
+            "id": 199,
+            "nameArabic": "بيتزا استربس",
+            "price": 180.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "L"
+        },
+        {
+            "id": 200,
+            "nameArabic": "بيتزا استربس",
+            "price": 210.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "XL"
+        },
+        {
+            "id": 201,
+            "nameArabic": "بيتزا سوبر فراخ",
+            "price": 100.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "S"
+        },
+        {
+            "id": 202,
+            "nameArabic": "بيتزا سوبر فراخ",
+            "price": 140.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "M"
+        },
+        {
+            "id": 203,
+            "nameArabic": "بيتزا سوبر فراخ",
+            "price": 185.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "L"
+        },
+        {
+            "id": 204,
+            "nameArabic": "بيتزا سوبر فراخ",
+            "price": 255.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "XL"
+        },
+        {
+            "id": 205,
+            "nameArabic": "بيتزا شاورما فراخ",
+            "price": 95.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "S"
+        },
+        {
+            "id": 206,
+            "nameArabic": "بيتزا شاورما فراخ",
+            "price": 135.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "M"
+        },
+        {
+            "id": 207,
+            "nameArabic": "بيتزا شاورما فراخ",
+            "price": 175.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "L"
+        },
+        {
+            "id": 208,
+            "nameArabic": "بيتزا شاورما فراخ",
+            "price": 210.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "XL"
+        },
+        {
+            "id": 209,
+            "nameArabic": "بيتزا تشكيلة نقانق",
+            "price": 105.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "S"
+        },
+        {
+            "id": 210,
+            "nameArabic": "بيتزا تشكيلة نقانق",
+            "price": 150.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "M"
+        },
+        {
+            "id": 211,
+            "nameArabic": "بيتزا تشكيلة نقانق",
+            "price": 195.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "L"
+        },
+        {
+            "id": 212,
+            "nameArabic": "بيتزا تشكيلة نقانق",
+            "price": 250.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "XL"
+        },
+        {
+            "id": 213,
+            "nameArabic": "بيتزا مشكل فراخ",
+            "price": 110.00,
+            "categoryArabic": "بيتزا تشكن",
+            "categoryEnglish": "Pizza chicken",
+            "size": "S"
+        },
+    {
+        "id": 214,
+        "nameArabic": "بيتزا مشكل فراخ",
+        "price": 155.00,
+        "categoryArabic": "بيتزا تشكن",
+        "categoryEnglish": "Pizza chicken",
+        "size": "M"
+    },
+    {
+        "id": 215,
+        "nameArabic": "بيتزا مشكل فراخ",
+        "price": 195.00,
+        "categoryArabic": "بيتزا تشكن",
+        "categoryEnglish": "Pizza chicken",
+        "size": "L"
+    },
+    {
+        "id": 216,
+        "nameArabic": "بيتزا مشكل فراخ",
+        "price": 270.00,
+        "categoryArabic": "بيتزا تشكن",
+        "categoryEnglish": "Pizza chicken",
+        "size": "XL"
+    },
+    {
+        "id": 217,
+        "nameArabic": "اضافات تشكن",
+        "price": 20.00,
+        "categoryArabic": "اضافات",
+        "categoryEnglish": "Extras chicken",
+        "size": "S"
+    },
+    {
+        "id": 218,
+        "nameArabic": "اضافات تشكن",
+        "price": 30.00,
+        "categoryArabic": "اضافات",
+        "categoryEnglish": "Extras chicken",
+        "size": "M"
+    },
+    {
+        "id": 219,
+        "nameArabic": "اضافات تشكن",
+        "price": 45.00,
+        "categoryArabic": "اضافات",
+        "categoryEnglish": "Extras chicken",
+        "size": "L"
+    },
+    {
+        "id": 220,
+        "nameArabic": "اضافات تشكن",
+        "price": 55.00,
+        "categoryArabic": "اضافات",
+        "categoryEnglish": "Extras chicken",
+        "size": "XL"
+    },
+    {
+        "id": 221,
+        "nameArabic": "بيتزا سي فود",
+        "price": 130.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "S"
+    },
+    {
+        "id": 222,
+        "nameArabic": "بيتزا سي فود",
+        "price": 170.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "M"
+    },
+    {
+        "id": 223,
+        "nameArabic": "بيتزا سي فود",
+        "price": 215.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "L"
+    },
+    {
+        "id": 224,
+        "nameArabic": "بيتزا سي فود",
+        "price": 280.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "XL"
+    },
+    {
+        "id": 225,
+        "nameArabic": "بيتزا جمبري",
+        "price": 120.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "S"
+    },
+    {
+        "id": 226,
+        "nameArabic": "بيتزا جمبري",
+        "price": 155.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "M"
+    },
+    {
+        "id": 227,
+        "nameArabic": "بيتزا جمبري",
+        "price": 200.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "L"
+    },
+    {
+        "id": 228,
+        "nameArabic": "بيتزا جمبري",
+        "price": 275.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "XL"
+    },
+    {
+        "id": 229,
+        "nameArabic": "بيتزا كليماري",
+        "price": 90.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "S"
+    },
+    {
+        "id": 230,
+        "nameArabic": "بيتزا كليماري",
+        "price": 135.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "M"
+    },
+    {
+        "id": 231,
+        "nameArabic": "بيتزا كليماري",
+        "price": 175.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "L"
+    },
+    {
+        "id": 232,
+        "nameArabic": "بيتزا كليماري",
+        "price": 255.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "XL"
+    },
+
+
+
+    {
+        "id": 233,
+        "nameArabic": "بيتزا بكاتوري ( جمبري + كاليماري )",
+        "price": 95.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "S"
+    },
+    {
+        "id": 234,
+        "nameArabic": "بيتزا بكاتوري ( جمبري + كاليماري )",
+        "price": 145.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "M"
+    },
+    {
+        "id": 235,
+        "nameArabic": "بيتزا بكاتوري ( جمبري + كاليماري )",
+        "price": 190.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "L"
+    },
+    {
+        "id": 236,
+        "nameArabic": "بيتزا بكاتوري ( جمبري + كاليماري )",
+        "price": 265.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "XL"
+    },
+    {
+        "id": 237,
+        "nameArabic": "بيتزا تونه",
+        "price": 85.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "S"
+    },
+    {
+        "id": 238,
+        "nameArabic": "بيتزا تونه",
+        "price": 125.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "M"
+    },
+    {
+        "id": 239,
+        "nameArabic": "بيتزا تونه",
+        "price": 150.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "L"
+    },
+    {
+        "id": 240,
+        "nameArabic": "بيتزا تونه",
+        "price": 195.00,
+        "categoryArabic": "بيتزا سي فود",
+        "categoryEnglish": "Pizza seafood",
+        "size": "XL"
+    },
+    {
+        "id": 241,
+        "nameArabic": "حشو اطراف جبنه",
+        "price": 45.00,
+        "categoryArabic": "حشو اطراف",
+        "categoryEnglish": "Stuffed crust pizza",
+        "size": "M"
+    },
+    {
+        "id": 242,
+        "nameArabic": "حشو اطراف جبنه",
+        "price": 75.00,
+        "categoryArabic": "حشو اطراف",
+        "categoryEnglish": "Stuffed crust pizza",
+        "size": "L"
+    },
+    {
+        "id": 243,
+        "nameArabic": "حشو اطراف جبنه",
+        "price": 100.00,
+        "categoryArabic": "حشو اطراف",
+        "categoryEnglish": "Stuffed crust pizza",
+        "size": "XL"
+    },
+    {
+        "id": 244,
+        "nameArabic": "حشو اطراف لحوم",
+        "price": 55.00,
+        "categoryArabic": "حشو اطراف",
+        "categoryEnglish": "Stuffed crust pizza",
+        "size": "M"
+    },
+    {
+        "id": 245,
+        "nameArabic": "حشو اطراف لحوم",
+        "price": 85.00,
+        "categoryArabic": "حشو اطراف",
+        "categoryEnglish": "Stuffed crust pizza",
+        "size": "L"
+    },
+    {
+        "id": 246,
+        "nameArabic": "حشو اطراف لحوم",
+        "price": 105.00,
+        "categoryArabic": "حشو اطراف",
+        "categoryEnglish": "Stuffed crust pizza",
+        "size": "XL"
+    },
+    {
+        "id": 247,
+        "nameArabic": "برجر تشيز",
+        "price": 135.00,
+        "categoryArabic": "برجر",
+        "categoryEnglish": "Burger",
+        "size": "R"
+    },
+    {
+        "id": 248,
+        "nameArabic": "برجر دبل",
+        "price": 150.00,
+        "categoryArabic": "برجر",
+        "categoryEnglish": "Burger",
+        "size": "R"
+    },
+    {
+        "id": 249,
+        "nameArabic": "برجر مكس +(اضافات)",
+        "price": 200.00,
+        "categoryArabic": "برجر",
+        "categoryEnglish": "Burger",
+        "size": "R"
+    },
+    {
+        "id": 250,
+        "nameArabic": "بوم فريت بكيت",
+        "price": 25.00,
+        "categoryArabic": "بوم فريت",
+        "categoryEnglish": "Pommes frites",
+        "size": "R"
+    },
+    {
+        "id": 251,
+        "nameArabic": "بوم فريت شيدر",
+        "price": 40.00,
+        "categoryArabic": "بوم فريت",
+        "categoryEnglish": "Pommes frites",
+        "size": "R"
+    },
+    {
+        "id": 252,
+        "nameArabic": "كلوسلو",
+        "price": 45.00,
+        "categoryArabic": "سلطه",
+        "categoryEnglish": "Salad",
+        "size": "R"
+    },
+    {
+        "id": 253,
+        "nameArabic": "صوص",
+        "price": 15.00,
+        "categoryArabic": "سلطه",
+        "categoryEnglish": "Salad",
+        "size": "R"
+    }
+
+    ]
+}

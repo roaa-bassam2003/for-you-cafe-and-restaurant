@@ -1,0 +1,704 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "nameArabic": "سبانش لاتيه",
+            "price": 80.00,
+            "categoryEnglish": "cold coffee",
+            "size": "R"
+        },
+        {
+            "id": 2,
+            "nameArabic": "ايس لاتيه",
+            "price": 60.00,
+            "categoryEnglish": "cold coffee",
+            "size": "R"
+        },
+        {
+            "id": 3,
+            "nameArabic": "ايس كارميل ميكاتو",
+            "price": 80.00,
+            "categoryEnglish": "cold coffee",
+            "size": "R"
+        },
+        {
+            "id": 4,
+            "nameArabic": "ايس موكا",
+            "price": 70.00,
+            "categoryEnglish": "cold coffee",
+            "size": "R"
+        },
+        {
+            "id": 5,
+            "nameArabic": "ايس اميركان بلاك",
+            "price": 50.00,
+            "categoryEnglish": "cold coffee",
+            "size": "R"
+        },
+        {
+            "id": 6,
+            "nameArabic": "ايس وايت موكا",
+            "price": 70.00,
+            "categoryEnglish": "cold coffee",
+            "size": "R"
+        },
+        {
+            "id": 7,
+            "nameArabic": "فرابتشينو",
+            "price": 90.00,
+            "categoryEnglish": "cold coffee",
+            "size": "R"
+        },
+        {
+            "id": 8,
+            "nameArabic": "فرابيه",
+            "price": 80.00,
+            "categoryEnglish": "cold coffee",
+            "size": "R"
+        },
+        {
+            "id": 9,
+            "nameArabic": "اسبريسو",
+            "price": 40.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "S"
+        },
+        {
+            "id": 10,
+            "nameArabic": "اسبريسو",
+            "price": 60.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "D"
+        },
+        {
+            "id": 11,
+            "nameArabic": "ميكاتو",
+            "price": 50.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "S"
+        },
+        {
+            "id": 12,
+            "nameArabic": "ميكاتو",
+            "price": 65.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "D"
+        },
+        {
+            "id": 13,
+            "nameArabic": "كورتادو",
+            "price": 60.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "S"
+        },
+        {
+            "id": 14,
+            "nameArabic": "فلات وايت",
+            "price": 65.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "S"
+        },
+        {
+            "id": 15,
+            "nameArabic": "فلات وايت",
+            "price": 65.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "D"
+        },
+        {
+            "id": 16,
+            "nameArabic": "كابتشينو",
+            "price": 65.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "S"
+        },
+        {
+            "id": 17,
+            "nameArabic": "كابتشينو",
+            "price": 75.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "D"
+        },
+        {
+            "id": 18,
+            "nameArabic": "لاتيه",
+            "price": 65.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "S"
+        },
+        {
+            "id": 19,
+            "nameArabic": "لاتيه",
+            "price": 75.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "D"
+        },
+        {
+            "id": 20,
+            "nameArabic": "موكا",
+            "price": 70.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "S"
+        },
+        {
+            "id": 21,
+            "nameArabic": "موكا",
+            "price": 85.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "D"
+        },
+        {
+            "id": 22,
+            "nameArabic": "اميركانو",
+            "price": 50.00,
+            "categoryEnglish": "Italian Coffee",
+            "size": "S"
+        },
+        {
+            "id": 23,
+            "nameArabic": "قهوة تركي",
+            "price": 30.00,
+            "categoryEnglish": "Arabian Style",
+            "size": "S"
+        },
+        {
+            "id": 24,
+            "nameArabic": "قهوة تركي",
+            "price": 40.00,
+            "categoryEnglish": "Arabian Style",
+            "size": "D"
+        },
+        {
+            "id": 25,
+            "nameArabic": "قهوة بندق",
+            "price": 45.00,
+            "categoryEnglish": "Arabian Style",
+            "size": "S"
+        },
+        {
+            "id": 26,
+            "nameArabic": "قهوة بندق",
+            "price": 55.00,
+            "categoryEnglish": "Arabian Style",
+            "size": "D"
+        },
+        {
+            "id": 27,
+            "nameArabic": "قهوة فرنساوي",
+            "price": 45.00,
+            "categoryEnglish": "Arabian Style",
+            "size": "S"
+        },
+        {
+            "id": 28,
+            "nameArabic": "قهوة فرنساوي",
+            "price": 55.00,
+            "categoryEnglish": "Arabian Style",
+            "size": "D"
+        },
+        {
+            "id": 29,
+            "nameArabic": "شاي احمر",
+            "price": 20.00,
+            "categoryEnglish": "Arabian Style",
+            "size": "R"
+        },
+        {
+            "id": 30,
+            "nameArabic": "شاي اخضر",
+            "price": 20.00,
+            "categoryEnglish": "Arabian Style",
+            "size": "R"
+        },
+        {
+            "id": 31,
+            "nameArabic": "شاي كرك",
+            "price": 35.00,
+            "categoryEnglish": "Arabian Style",
+            "size": "R"
+        },
+        {
+            "id": 32,
+            "nameArabic": "نسكافيه",
+            "price": 35.00,
+            "categoryEnglish": "Arabian Style",
+            "size": "R"
+        },
+        {
+            "id": 33,
+            "nameArabic": "نسكافيه بلاك",
+            "price": 30.00,
+            "categoryEnglish": "Arabian Style",
+            "size": "R"
+        },
+        {
+            "id": 34,
+            "nameArabic": "وافل شوكليت",
+            "price": 85.00,
+            "categoryEnglish": "Sweet Waffle",
+            "size": "R"
+        },
+        {
+            "id": 35,
+            "nameArabic": "وافل بستاشيو",
+            "price": 130.00,
+            "categoryEnglish": "Sweet Waffle",
+            "size": "R"
+        },
+        {
+            "id": 36,
+            "nameArabic": "وافل لوتس",
+            "price": 100.00,
+            "categoryEnglish": "Sweet Waffle",
+            "size": "R"
+        },
+        {
+            "id": 37,
+            "nameArabic": "بان كيك 12 شوكليت",
+            "price": 100.00,
+            "categoryEnglish": "Sweet Pancake",
+            "size": "R"
+        },
+        {
+            "id": 38,
+            "nameArabic": "بان كيك 24 شوكليت",
+            "price": 130.00,
+            "categoryEnglish": "Sweet Pancake",
+            "size": "R"
+        },
+        {
+            "id": 39,
+            "nameArabic": "بان كيك 12 لوتس",
+            "price": 100.00,
+            "categoryEnglish": "Sweet Pancake",
+            "size": "R"
+        },
+        {
+            "id": 40,
+            "nameArabic": "بان كيك 24 لوتس",
+            "price": 150.00,
+            "categoryEnglish": "Sweet Pancake",
+            "size": "R"
+        },
+        {
+            "id": 41,
+            "nameArabic": "بان كيك 12 بستاشيو",
+            "price": 130.00,
+            "categoryEnglish": "Sweet Pancake",
+            "size": "R"
+        },
+        {
+            "id": 42,
+            "nameArabic": "بان كيك 24 بستاشيو",
+            "price": 180.00,
+            "categoryEnglish": "Sweet Pancake",
+            "size": "R"
+        },
+        {
+            "id": 43,
+            "nameArabic": "نوتيلا كوفي",
+            "price": 60.00,
+            "categoryEnglish": "Hot Coffee",
+            "size": "R"
+        },
+        {
+            "id": 44,
+            "nameArabic": "هوت سبانش لاتيه",
+            "price": 80.00,
+            "categoryEnglish": "Hot Coffee",
+            "size": "R"
+        },
+        {
+            "id": 45,
+            "nameArabic": "افوجادو كوفي",
+            "price": 60.00,
+            "categoryEnglish": "Hot Coffee",
+            "size": "R"
+        },
+        {
+            "id": 46,
+            "nameArabic": "هوت شوكليت",
+            "price": 60.00,
+            "categoryEnglish": "Hot Drink",
+            "size": "R"
+        },
+        {
+            "id": 47,
+            "nameArabic": "هوت لوتس",
+            "price": 60.00,
+            "categoryEnglish": "Hot Drink",
+            "size": "R"
+        },
+        {
+            "id": 48,
+            "nameArabic": "هوت بستاشيو",
+            "price": 80.00,
+            "categoryEnglish": "Hot Drink",
+            "size": "R"
+        },
+        {
+            "id": 49,
+            "nameArabic": "هوت اوريو",
+            "price": 65.00,
+            "categoryEnglish": "Hot Drink",
+            "size": "R"
+        },
+        {
+            "id": 50,
+            "nameArabic": "هوت سيدر Apple",
+            "price": 50.00,
+            "categoryEnglish": "Hot Drink",
+            "size": "R"
+        },
+        {
+            "id": 51,
+            "nameArabic": "هوت سيدر Pinaple",
+            "price": 50.00,
+            "categoryEnglish": "Hot Drink",
+            "size": "R"
+        },
+        {
+            "id": 52,
+            "nameArabic": "هوت شوكليت وايت",
+            "price": 65.00,
+            "categoryEnglish": "Hot Drink",
+            "size": "R"
+        },
+        {
+            "id": 53,
+            "nameArabic": "هوت شوكليت مارشيملو",
+            "price": 80.00,
+            "categoryEnglish": "Hot Drink",
+            "size": "R"
+        },
+        {
+            "id": 54,
+            "nameArabic": "ميكس صودا",
+            "price": 65.00,
+            "categoryEnglish": "Soft Drink",
+            "size": "R"
+        },
+        {
+            "id": 55,
+            "nameArabic": "ميكس صوداانيرجي ( ريد بول )",
+            "price": 90.00,
+            "categoryEnglish": "Soft Drink",
+            "size": "R"
+        },
+        {
+            "id": 56,
+            "nameArabic": "ميلك شيك Flavors",
+            "price": 80.00,
+            "categoryEnglish": "Milk Shik",
+            "size": "R"
+        },
+        {
+            "id": 57,
+            "nameArabic": "ميلك شيك نوتيلا",
+            "price": 90.00,
+            "categoryEnglish": "Milk Shik",
+            "size": "R"
+        },
+        {
+            "id": 58,
+            "nameArabic": "ميلك شيك اوريو",
+            "price": 90.00,
+            "categoryEnglish": "Milk Shik",
+            "size": "R"
+        },
+        {
+            "id": 59,
+            "nameArabic": "ميلك شيك بستاشيو",
+            "price": 110.00,
+            "categoryEnglish": "Milk Shik",
+            "size": "R"
+        },
+        {
+            "id": 60,
+            "nameArabic": "ميلك شيك لوتس",
+            "price": 90.00,
+            "categoryEnglish": "Milk Shik",
+            "size": "R"
+        },
+        {
+            "id": 61,
+            "nameArabic": "ايس كريم",
+            "price": 40.00,
+            "categoryEnglish": "Ice Cream",
+            "size": "R"
+        },
+        {
+            "id": 62,
+            "nameArabic": "ايس كريم نوتيلا",
+            "price": 50.00,
+            "categoryEnglish": "Ice Cream",
+            "size": "R"
+        },
+        {
+            "id": 63,
+            "nameArabic": "ايس كريم لوتس",
+            "price": 50.00,
+            "categoryEnglish": "Ice Cream",
+            "size": "R"
+        },
+        {
+            "id": 64,
+            "nameArabic": "ايس كريم بستاشيو",
+            "price": 65.00,
+            "categoryEnglish": "Ice Cream",
+            "size": "R"
+        },
+        {
+            "id": 65,
+            "nameArabic": "بيبسي",
+            "price": 30.00,
+            "categoryEnglish": "Soda Drink",
+            "size": "R"
+        },
+        {
+            "id": 66,
+            "nameArabic": "سيفن",
+            "price": 30.00,
+            "categoryEnglish": "Soda Drink",
+            "size": "R"
+        },
+        {
+            "id": 67,
+            "nameArabic": "موسي",
+            "price": 45.00,
+            "categoryEnglish": "Soda Drink",
+            "size": "R"
+        },
+        {
+            "id": 68,
+            "nameArabic": "ريد بول",
+            "price": 70.00,
+            "categoryEnglish": "Energy Drink",
+            "size": "R"
+        },
+        {
+            "id": 69,
+            "nameArabic": "تويست",
+            "price": 35.00,
+            "categoryEnglish": "Energy Drink",
+            "size": "R"
+        },
+        {
+            "id": 70,
+            "nameArabic": "سموزي All Flavors",
+            "price": 75.00,
+            "categoryEnglish": "Smoothie",
+            "size": "R"
+        },
+        {
+            "id": 71,
+            "nameArabic": "هوني كيك",
+            "price": 75.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 72,
+            "nameArabic": "تشييز كيك",
+            "price": 70.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 73,
+            "nameArabic": "ريد فيلفيت",
+            "price": 70.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 74,
+            "nameArabic": "دوناتس",
+            "price": 60.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 75,
+            "nameArabic": "جابنز كيك",
+            "price": 85.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 76,
+            "nameArabic": "تشيز كيك سانسبيستيان",
+            "price": 85.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 77,
+            "nameArabic": "كوكيز",
+            "price": 50.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 78,
+            "nameArabic": "براونز",
+            "price": 70.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 79,
+            "nameArabic": "كاب كيك",
+            "price": 40.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 80,
+            "nameArabic": "مولتن",
+            "price": 80.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 81,
+            "nameArabic": "فادج كيك",
+            "price": 75.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 82,
+            "nameArabic": "ايكير نوتيلا",
+            "price": 50.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 83,
+            "nameArabic": "ايكير بستاشيو",
+            "price": 60.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 84,
+            "nameArabic": "سينابون",
+            "price": 75.00,
+            "categoryEnglish": "Cake",
+            "size": "R"
+        },
+        {
+            "id": 85,
+            "nameArabic": "Ice Matcha",
+            "price": 60.00,
+            "categoryEnglish": "Matcha",
+            "size": "S"
+        },
+        {
+            "id": 86,
+            "nameArabic": "Ice Matcha",
+            "price": 80.00,
+            "categoryEnglish": "Matcha",
+            "size": "D"
+        },
+        {
+            "id": 87,
+            "nameArabic": "Frappe",
+            "price": 80.00,
+            "categoryEnglish": "Feappe",
+            "size": "R"
+        },
+        {
+            "id": 88,
+            "nameArabic": "Frappuccino",
+            "price": 90.00,
+            "categoryEnglish": "Feappe",
+            "size": "R"
+        },
+        {
+            "id": 89,
+            "nameArabic": "Hot Matcha",
+            "price": 60.00,
+            "categoryEnglish": "Matcha",
+            "size": "S"
+        },
+        {
+            "id": 90,
+            "nameArabic": "Hot Matcha",
+            "price": 80.00,
+            "categoryEnglish": "Matcha",
+            "size": "D"
+        },
+        {
+            "id": 91,
+            "nameArabic": "مانجو",
+            "price": 60.00,
+            "categoryEnglish": "Fresh juice",
+            "size": "R"
+        },
+        {
+            "id": 92,
+            "nameArabic": "فراوله",
+            "price": 60.00,
+            "categoryEnglish": "Fresh juice",
+            "size": "R"
+        },
+        {
+            "id": 93,
+            "nameArabic": "جوافه",
+            "price": 60.00,
+            "categoryEnglish": "Fresh juice",
+            "size": "R"
+        },
+        {
+            "id": 94,
+            "nameArabic": "ليمون",
+            "price": 50.00,
+            "categoryEnglish": "Fresh juice",
+            "size": "R"
+        },
+        {
+            "id": 95,
+            "nameArabic": "boba",
+            "price": 20.00,
+            "categoryEnglish": "Extra",
+            "size": "R"
+        },
+        {
+            "id": 96,
+            "nameArabic": "extra shot",
+            "price": 30.00,
+            "categoryEnglish": "Extra",
+            "size": "R"
+        },
+        {
+            "id": 97,
+            "nameArabic": "extra flavor",
+            "price": 15.00,
+            "categoryEnglish": "Extra",
+            "size": "R"
+        },
+        {
+            "id": 98,
+            "nameArabic": "extra sause",
+            "price": 15.00,
+            "categoryEnglish": "Extra",
+            "size": "R"
+        },
+        {
+            "id": 99,
+            "nameArabic": "can",
+            "price": 20.00,
+            "categoryEnglish": "Extra",
+            "size": "R"
+        },
+        {
+            "id": 100,
+            "nameArabic": "extra waiped cream",
+            "price": 25.00,
+            "categoryEnglish": "Extra",
+            "size": "R"
+        }
+    ]
+}
