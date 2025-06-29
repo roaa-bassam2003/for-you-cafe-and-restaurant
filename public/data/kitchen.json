@@ -1346,6 +1346,183 @@
         "categoryArabic": "سلطه",
         "categoryEnglish": "Salad",
         "size": "R"
+    },
+    
+
+
+    {
+        "id": 254,
+        "nameArabic": "ساندوتش لحمه مفروم",
+        "price": 110.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich",
+        "size": "L"
+    },
+     {
+        "id": 255,
+        "nameArabic": "ساندوتش سوبر لحوم",
+        "price": 125.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich",
+        "size": "L"
+    },
+     {
+        "id": 256,
+        "nameArabic": "ساندوتش سجق",
+        "price": 90.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich",
+        "size": "L"
+    },
+     {
+        "id": 257,
+        "nameArabic": "ساندوتش مشكل لحوم",
+        "price": 150.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich",
+        "size": "L"
+    },
+     {
+        "id": 258,
+        "nameArabic": "ساندوتش لحوم مدخن",
+        "price": 135.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich",
+        "size": "L"
+    },
+     {
+        "id": 259,
+        "nameArabic": "ساندوتش لحمه مفروم",
+        "price": 80.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich",
+        "size": "M"
+    },
+    {
+        "id": 260,
+        "nameArabic": "ساندوتش سوبر لحوم",
+        "price": 85.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich",
+        "size": "M"
+    },
+    {
+        "id": 261,
+        "nameArabic": "ساندوتش سجق",
+        "price": 70.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich",
+        "size": "M"
+    },
+    {
+        "id": 262,
+        "nameArabic": "ساندوتش مشكل لحوم",
+        "price": 95.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich",
+        "size": "M"
+    },
+     {
+        "id": 263,
+        "nameArabic": "ساندوتش لحوم مدخن",
+        "price": 90.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich",
+        "size": "M"
+    },
+
+
+
+
+
+
+     {
+        "id": 264,
+        "nameArabic": "ساندوتش فاهيتا",
+        "price": 145.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich Pick You",
+        "size": "R"
+    },
+    {
+        "id": 265,
+        "nameArabic": "ساندوتش رانش",
+        "price": 145.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich Pick You",
+        "size": "R"
+    },
+    {
+        "id": 266,
+        "nameArabic": "ساندوتش استربس",
+        "price": 145.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich Pick You",
+        "size": "R"
+    },
+    {
+        "id": 267,
+        "nameArabic": "ساندوتش بانيه",
+        "price": 145.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich Pick You",
+        "size": "R"
+    },
+    {
+        "id": 268,
+        "nameArabic": "ساندوتش مشكل فراخ",
+        "price": 180.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich Pick You",
+        "size": "R"
+    },
+    {
+        "id": 269,
+        "nameArabic": "ساندوتش سجق وهوت دوج وببروني",
+        "price": 150.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich Pick You",
+        "size": "R"
+    },
+    {
+        "id": 270,
+        "nameArabic": "ساندوتش لحمه مفرومه",
+        "price": 140.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich Pick You",
+        "size": "R"
+    },
+    {
+        "id": 271,
+        "nameArabic": "ساندوتش سوبر لحوم",
+        "price": 155.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich Pick You",
+        "size": "R"
+    },
+    {
+        "id": 272,
+        "nameArabic": "ساندوتش مشكل لحوم",
+        "price": 155.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich Pick You",
+        "size": "R"
+    },
+    {
+        "id": 273,
+        "nameArabic": "ساندوتش كينج تشيز برجر",
+        "price": 195.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich Pick You",
+        "size": "R"
+    },
+    {
+        "id": 274,
+        "nameArabic": "ساندوتش جمبري كرسبي",
+        "price": 210.00,
+        "categoryArabic": "ساندوتش",
+        "categoryEnglish": "Sandwich Pick You",
+        "size": "R"
     }
 
     ]

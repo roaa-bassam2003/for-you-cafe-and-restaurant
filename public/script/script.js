@@ -21,6 +21,7 @@ const categoryBackgrounds = {
     "Extras Meat": "extras-meat",
     "Extras cheese": "extras-cheese",
     "Extras chicken": "extras-chicken",
+    "Sandwich": "sandwich", // New combined sandwich category
     // Cafe categories
     "cold coffee": "cold-coffee",
     "Italian Coffee": "italian-coffee",
@@ -56,35 +57,38 @@ const sweetCategoriesMapping = {
     "Sweet Waffle": "Sweet"
 };
 
+// Mapping for combined sandwich categories
+const sandwichCategoriesMapping = {
+    "Sandwich Pick You": "Sandwich",
+    "Sandwich": "Sandwich"
+};
+
 // Load menu data from JSON files
 async function loadMenuData() {
     try {
         // Load restaurant menu
-        const restaurantResponse = await fetch('data/kitchen.json');
+        // test: ./data/kitchen.json 
+        // work: ../data/kitchen.json
+        const restaurantResponse = await fetch('./data/kitchen.json');
         if (!restaurantResponse.ok) {
             throw new Error(`HTTP error! status: ${restaurantResponse.status}`);
         }
         menuData = await restaurantResponse.json();
-        console.log('Restaurant menu data loaded successfully:', menuData);
     } catch (error) {
-        console.error('Error loading restaurant menu data:', error);
         menuData = { menu: [] };
         alert('خطأ في تحميل بيانات قائمة المطعم. يرجى المحاولة مرة أخرى.');
     }
 
     try {
         // Load cafe menu
-        const cafeResponse = await fetch('data/bar.json');
+        const cafeResponse = await fetch('./data/bar.json');
         if (!cafeResponse.ok) {
             throw new Error(`HTTP error! status: ${cafeResponse.status}`);
         }
         cafeData = await cafeResponse.json();
-        console.log('Cafe menu data loaded successfully:', cafeData);
     } catch (error) {
-        console.error('Error loading cafe menu data:', error);
         cafeData = { menu: [] };
-        // Don't show alert for cafe data if it doesn't exist yet
-        console.log('Cafe menu not available yet');
+        alert('خطأ في تحميل بيانات قائمة الكافية. يرجى المحاولة مرة أخرى.');
     }
 }
 
@@ -100,7 +104,22 @@ function getCategories() {
     
     // Filter out extras categories for restaurant menu only
     if (currentMenuType === 'restaurant') {
-        return allCategories.filter(category => !Object.keys(extrasMapping).includes(category));
+        // Filter out extras and sandwich subcategories
+        let filteredCategories = allCategories.filter(category => 
+            !Object.keys(extrasMapping).includes(category) &&
+            !Object.keys(sandwichCategoriesMapping).includes(category)
+        );
+        
+        // Add "Sandwich" category if either sandwich subcategory exists
+        const hasSandwiches = allCategories.some(category => 
+            Object.keys(sandwichCategoriesMapping).includes(category)
+        );
+        
+        if (hasSandwiches) {
+            filteredCategories.push("Sandwich");
+        }
+        
+        return filteredCategories;
     } else {
         // For cafe menu, combine sweet categories
         const filteredCategories = allCategories.filter(category => 
@@ -126,6 +145,16 @@ function getCategoryItems(category) {
     
     if (currentMenuType === 'restaurant') {
         let items = currentData.menu.filter(item => item.categoryEnglish === category);
+        
+        // Handle sandwich category specially
+        if (category === "Sandwich") {
+            items = [];
+            Object.keys(sandwichCategoriesMapping).forEach(sandwichCategory => {
+                const sandwichItems = currentData.menu.filter(item => item.categoryEnglish === sandwichCategory);
+                items = items.concat(sandwichItems);
+            });
+            return items;
+        }
         
         // Find corresponding extras category
         const extrasCategory = Object.keys(extrasMapping).find(key => extrasMapping[key] === category);
@@ -156,15 +185,91 @@ function getCategorySizes(category) {
     return [...new Set(categoryItems.map(item => item.size))];
 }
 
-function showHome() {
-    document.getElementById('hero').style.display = 'flex';
-    document.getElementById('home').style.display = 'block';
+// Navigation functions
+function showSection(sectionId) {
+    // Hide all content sections
+    const sections = ['home', 'about', 'menu', 'gallery', 'contact'];
+    sections.forEach(section => {
+        const element = document.getElementById(section);
+        if (element) {
+            element.style.display = 'none';
+        }
+    });
+    
+    // Hide hero section
+    const hero = document.getElementById('hero');
+    if (hero) {
+        hero.style.display = 'none';
+    }
+    
+    // Hide menu sections
     document.getElementById('restaurant-menu').classList.remove('active');
     document.getElementById('cafe-menu').classList.remove('active');
+    
+    // Remove showing-menu class from body
+    document.body.classList.remove('showing-menu');
+    
+    // Show the selected section
+    const targetSection = document.getElementById(sectionId);
+    if (targetSection) {
+        targetSection.style.display = 'block';
+    }
+    
+    // Special handling for home section
+    if (sectionId === 'home') {
+        const hero = document.getElementById('hero');
+        if (hero) {
+            hero.style.display = 'flex';
+        }
+    }
+    
+    // Update active navigation link
+    updateActiveNavLink(sectionId);
+    
+    // Close mobile menu if open
+    closeMobileMenu();
+    
+    // Scroll to top smoothly
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function updateActiveNavLink(activeSection) {
+    // Remove active class from all nav links
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.classList.remove('active');
+    });
+    
+    // Add active class to current section link
+    const activeLink = document.querySelector(`.nav-links a[href="#${activeSection}"]`);
+    if (activeLink) {
+        activeLink.classList.add('active');
+    }
+}
+
+function toggleMobileMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    const mobileToggle = document.querySelector('.mobile-menu-toggle');
+    
+    navLinks.classList.toggle('active');
+    mobileToggle.classList.toggle('active');
+}
+
+function closeMobileMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    const mobileToggle = document.querySelector('.mobile-menu-toggle');
+    
+    navLinks.classList.remove('active');
+    mobileToggle.classList.remove('active');
+}
+
+function showHome() {
+    showSection('home');
 }
 
 async function showRestaurantMenu() {
-
+    // Add showing-menu class to body to hide navigation and sections
+    document.body.classList.add('showing-menu');
+    
     // Scroll to the header menu
     const headerMenu = document.getElementById('top-header');
     if (headerMenu) {
@@ -182,13 +287,25 @@ async function showRestaurantMenu() {
     currentMenuType = 'restaurant';
     document.getElementById('hero').style.display = 'none';
     document.getElementById('home').style.display = 'none';
+    
+    // Hide all content sections
+    const sections = ['about', 'menu', 'gallery', 'contact'];
+    sections.forEach(section => {
+        const element = document.getElementById(section);
+        if (element) {
+            element.style.display = 'none';
+        }
+    });
+    
     document.getElementById('restaurant-menu').classList.add('active');
     document.getElementById('cafe-menu').classList.remove('active');
     showCategories();
 }
 
 async function showCafeMenu() {
-
+    // Add showing-menu class to body to hide navigation and sections
+    document.body.classList.add('showing-menu');
+    
     // Scroll to the header menu
     const headerMenu = document.getElementById('top-header');
     if (headerMenu) {
@@ -206,6 +323,16 @@ async function showCafeMenu() {
     currentMenuType = 'cafe';
     document.getElementById('hero').style.display = 'none';
     document.getElementById('home').style.display = 'none';
+    
+    // Hide all content sections
+    const sections = ['about', 'menu', 'gallery', 'contact'];
+    sections.forEach(section => {
+        const element = document.getElementById(section);
+        if (element) {
+            element.style.display = 'none';
+        }
+    });
+    
     document.getElementById('cafe-menu').classList.add('active');
     document.getElementById('restaurant-menu').classList.remove('active');
     showCategories();
@@ -230,16 +357,6 @@ function showCategories() {
         categoryDiv.onclick = () => showCategoryItems(category);
 
         const backgroundClass = categoryBackgrounds[category] || 'extras-chicken';
-        // Count items including extras for this category
-        // const itemCount = getCategoryItems(category).length;
-
-        // categoryDiv.innerHTML = `
-        //     <div class="category-image ${backgroundClass}">
-        //         <div class="category-count">${itemCount}</div>
-        //     </div>
-        //     <h3>${category}</h3>
-        // `;
-
 
         categoryDiv.innerHTML = `
             <div class="category-image ${backgroundClass}">
@@ -290,15 +407,8 @@ function initializeCategorySizeFilters(category) {
     sizeFiltersContainer.innerHTML = '';
 
     if (currentMenuType === 'restaurant') {
-        // Restaurant logic (unchanged)
-        const mainCategoryItems = currentData.menu.filter(item => item.categoryEnglish === category);
-        const mainCategorySizes = [...new Set(mainCategoryItems.map(item => item.size))];
-        
-        const extrasCategory = Object.keys(extrasMapping).find(key => extrasMapping[key] === category);
-        const hasExtras = extrasCategory && currentData.menu.some(item => item.categoryEnglish === extrasCategory);
-        
-        // Only show tabs if there are multiple sizes OR extras exist
-        if (mainCategorySizes.length > 1 || hasExtras) {
+        // Restaurant logic - handle Sandwich category specially
+        if (category === 'Sandwich') {
             // Add "All" tab
             const allTab = document.createElement('button');
             allTab.className = 'size-tab active';
@@ -306,22 +416,59 @@ function initializeCategorySizeFilters(category) {
             allTab.onclick = () => filterCategoryBySize('All');
             sizeFiltersContainer.appendChild(allTab);
 
-            // Add individual size tabs for main category
-            mainCategorySizes.forEach(size => {
-                const sizeTab = document.createElement('button');
-                sizeTab.className = 'size-tab';
-                sizeTab.textContent = `Size ${size}`;
-                sizeTab.onclick = () => filterCategoryBySize(size);
-                sizeFiltersContainer.appendChild(sizeTab);
-            });
+            // Add Sandwich Pick You tab
+            const pickYouItems = currentData.menu.filter(item => item.categoryEnglish === 'Sandwich Pick You');
+            if (pickYouItems.length > 0) {
+                const pickYouTab = document.createElement('button');
+                pickYouTab.className = 'size-tab';
+                pickYouTab.textContent = 'Pick You Sandwich';
+                pickYouTab.onclick = () => filterCategoryBySize('Pick You');
+                sizeFiltersContainer.appendChild(pickYouTab);
+            }
 
-            // Add extras tab if extras exist
-            if (hasExtras) {
-                const extrasTab = document.createElement('button');
-                extrasTab.className = 'size-tab extras-tab';
-                extrasTab.textContent = 'Extras';
-                extrasTab.onclick = () => filterCategoryBySize('Extras');
-                sizeFiltersContainer.appendChild(extrasTab);
+            // Add Regular Sandwich tab
+            const regularItems = currentData.menu.filter(item => item.categoryEnglish === 'Sandwich');
+            if (regularItems.length > 0) {
+                const regularTab = document.createElement('button');
+                regularTab.className = 'size-tab';
+                regularTab.textContent = 'Sandwich';
+                regularTab.onclick = () => filterCategoryBySize('Regular');
+                sizeFiltersContainer.appendChild(regularTab);
+            }
+        } else {
+            // Regular restaurant category logic
+            const mainCategoryItems = currentData.menu.filter(item => item.categoryEnglish === category);
+            const mainCategorySizes = [...new Set(mainCategoryItems.map(item => item.size))];
+            
+            const extrasCategory = Object.keys(extrasMapping).find(key => extrasMapping[key] === category);
+            const hasExtras = extrasCategory && currentData.menu.some(item => item.categoryEnglish === extrasCategory);
+            
+            // Only show tabs if there are multiple sizes OR extras exist
+            if (mainCategorySizes.length > 1 || hasExtras) {
+                // Add "All" tab
+                const allTab = document.createElement('button');
+                allTab.className = 'size-tab active';
+                allTab.textContent = 'All Items';
+                allTab.onclick = () => filterCategoryBySize('All');
+                sizeFiltersContainer.appendChild(allTab);
+
+                // Add individual size tabs for main category
+                mainCategorySizes.forEach(size => {
+                    const sizeTab = document.createElement('button');
+                    sizeTab.className = 'size-tab';
+                    sizeTab.textContent = `Size ${size}`;
+                    sizeTab.onclick = () => filterCategoryBySize(size);
+                    sizeFiltersContainer.appendChild(sizeTab);
+                });
+
+                // Add extras tab if extras exist
+                if (hasExtras) {
+                    const extrasTab = document.createElement('button');
+                    extrasTab.className = 'size-tab extras-tab';
+                    extrasTab.textContent = 'Extras';
+                    extrasTab.onclick = () => filterCategoryBySize('Extras');
+                    sizeFiltersContainer.appendChild(extrasTab);
+                }
             }
         }
     } else {
@@ -402,8 +549,19 @@ function displayCategoryItems(category, sizeFilter) {
     let categoryItems;
 
     if (currentMenuType === 'restaurant') {
-        // Restaurant logic (unchanged)
-        if (sizeFilter === 'Extras') {
+        // Restaurant logic - handle Sandwich category specially
+        if (category === 'Sandwich') {
+            if (sizeFilter === 'Pick You') {
+                categoryItems = currentData.menu.filter(item => item.categoryEnglish === 'Sandwich Pick You');
+            } else if (sizeFilter === 'Regular') {
+                categoryItems = currentData.menu.filter(item => item.categoryEnglish === 'Sandwich');
+            } else if (sizeFilter === 'All') {
+                categoryItems = getCategoryItems(category);
+            } else {
+                // Specific size filter for sandwich items
+                categoryItems = getCategoryItems(category).filter(item => item.size === sizeFilter);
+            }
+        } else if (sizeFilter === 'Extras') {
             // Show only extras items
             const extrasCategory = Object.keys(extrasMapping).find(key => extrasMapping[key] === category);
             if (extrasCategory) {
@@ -466,6 +624,15 @@ function displayCategoryItems(category, sizeFilter) {
             }
         }
         
+        if (currentMenuType === 'restaurant' && category === 'Sandwich' && sizeFilter === 'All') {
+            // For sandwich category, group by subcategory
+            if (a.categoryEnglish !== b.categoryEnglish) {
+                // Sandwich Pick You first, then regular Sandwich
+                const order = ['Sandwich Pick You', 'Sandwich'];
+                return order.indexOf(a.categoryEnglish) - order.indexOf(b.categoryEnglish);
+            }
+        }
+        
         if (a.size !== b.size) {
             // Sort by size (S, M, L, XL, R, Regular, Large)
             const sizeOrder = ['S', 'M', 'L', 'XL', 'R', 'Regular', 'Large'];
@@ -481,12 +648,16 @@ function displayCategoryItems(category, sizeFilter) {
         // Add special classes
         const isExtra = currentMenuType === 'restaurant' && Object.keys(extrasMapping).includes(item.categoryEnglish);
         const isSweet = currentMenuType === 'cafe' && Object.keys(sweetCategoriesMapping).includes(item.categoryEnglish);
+        const isSandwich = currentMenuType === 'restaurant' && Object.keys(sandwichCategoriesMapping).includes(item.categoryEnglish);
         
         if (isExtra) {
             itemDiv.classList.add('extras-item');
         }
         if (isSweet) {
             itemDiv.classList.add('sweet-item');
+        }
+        if (isSandwich) {
+            itemDiv.classList.add('sandwich-item');
         }
 
         itemDiv.innerHTML = `
@@ -511,9 +682,63 @@ function displayCategoryItems(category, sizeFilter) {
     }
 }
 
+// Contact form handling
+function handleContactForm() {
+    const form = document.getElementById('contactForm');
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(form);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const phone = formData.get('phone');
+            const message = formData.get('message');
+            
+            // Simple validation
+            if (!name || !email || !message) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            // Here you would typically send the data to your server
+            // For now, we'll just show a success message
+            alert('Thank you for your message! We will get back to you soon.');
+            form.reset();
+        });
+    }
+}
+
 // Initialize the page
 document.addEventListener('DOMContentLoaded', async function() {
     // Load menu data when page loads
     await loadMenuData();
-    showHome();
+    
+    // Initialize contact form
+    handleContactForm();
+    
+    // Show home section by default
+    showSection('home');
+    
+    // Handle navigation clicks
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const sectionId = this.getAttribute('href').substring(1);
+            showSection(sectionId);
+        });
+    });
+    
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(e) {
+        const navLinks = document.querySelector('.nav-links');
+        const mobileToggle = document.querySelector('.mobile-menu-toggle');
+        
+        if (navLinks.classList.contains('active') && 
+            !navLinks.contains(e.target) && 
+            !mobileToggle.contains(e.target)) {
+            closeMobileMenu();
+        }
+    });
 });

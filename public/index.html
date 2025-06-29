@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick You - Restaurant & Cafe</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- <base href="/for-you-cafe-and-restaurant/"> -->
+</head>
+
+<body>
+    <!-- header -->
+    <header id="top-header">
+        <div class="container">
+            <div class="header-content">
+                <img src="logo_2.png" alt="logo">
+                <div class="logo">cafe & restaurant</div>
+                <button class="nav-btn" onclick="showHome()">Home</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Header -->
+    <nav class="main-nav" id="main-nav">
+        <div class="container">
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                    <li><a href="#about" onclick="showSection('about')">About</a></li>
+                    <li><a href="#menu" onclick="showSection('menu')">Menu</a></li>
+                    <li><a href="#gallery" onclick="showSection('gallery')">Gallery</a></li>
+                    <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Pick You</h1>
+            <p>Experience the finest dining with our exceptional menu of delicious food and premium beverages</p>
+        </div>
+    </section>
+
+    <main>
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="container">
+                <h1>Welcome to Pick You</h1>
+
+                <p>Choose what suits you from the special menu of food and drinks</p>
+                <div class="home-buttons">
+                    <button class="home-btn" onclick="showRestaurantMenu()">Restaurant menu</button>
+                    <button class="home-btn" onclick="showCafeMenu()">Cafe menu</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="content-section" id="about" style="display: none;">
+            <div class="container">
+                <h2>About Pick You</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>Welcome to Pick You, where culinary excellence meets warm hospitality. Since our establishment, we have been dedicated to providing our guests with an unforgettable dining experience that combines the best of both restaurant and cafe culture.</p>
+                        
+                        <h3>Our Mission</h3>
+                        <p>We believe that great food brings people together. Our mission is to create a welcoming atmosphere where friends and families can gather to enjoy exceptional meals, premium beverages, and create lasting memories.</p>
+                        
+                        <h3>What Makes Us Special</h3>
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <i class="fas fa-utensils"></i>
+                                <h4>Fresh Ingredients</h4>
+                                <p>We source only the finest, freshest ingredients to ensure every dish is of the highest quality.</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-coffee"></i>
+                                <h4>Premium Beverages</h4>
+                                <p>From artisanal coffee to refreshing smoothies, our beverage menu offers something for every taste.</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-heart"></i>
+                                <h4>Warm Atmosphere</h4>
+                                <p>Our cozy and inviting environment makes every visit feel like coming home.</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-users"></i>
+                                <h4>Friendly Service</h4>
+                                <p>Our dedicated team is committed to providing exceptional service with a smile.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="content-section" id="menu" style="display: none;">
+            <div class="container">
+                <h2>Our Menu</h2>
+                <div class="menu-preview">
+                    <p>Discover our delicious offerings with carefully crafted dishes and premium beverages</p>
+                    <div class="menu-options">
+                        <div class="menu-option">
+                            <div class="menu-option-image restaurant-img">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <h3>Restaurant Menu</h3>
+                            <p>Explore our wide selection of pizzas, pastas, burgers, and more</p>
+                            <button class="menu-btn" onclick="showRestaurantMenu()">View Restaurant Menu</button>
+                        </div>
+                        <div class="menu-option">
+                            <div class="menu-option-image cafe-img">
+                                <i class="fas fa-coffee"></i>
+                            </div>
+                            <h3>Cafe Menu</h3>
+                            <p>Enjoy our premium coffee, refreshing drinks, and sweet treats</p>
+                            <button class="menu-btn" onclick="showCafeMenu()">View Cafe Menu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="content-section" id="gallery" style="display: none;">
+            <div class="container">
+                <h2>Our Gallery</h2>
+                <div class="gallery-content">
+                    <p>Take a look at our delicious dishes, cozy atmosphere, and happy customers</p>
+                    <div class="gallery-grid">
+                        <!-- pizza -->
+                        <div class="gallery-item">
+                            <img src="img/gallery/pizza_ransh.jpg" alt="Delicious Pizza" onerror="this.style.display='none'">
+                            <div class="gallery-overlay">
+                                <h4>Signature Pizza</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/gallery/pizza_doretoz.jpg" alt="Delicious Pizza" onerror="this.style.display='none'">
+                            <div class="gallery-overlay">
+                                <h4>Signature Pizza 2</h4>
+                            </div>
+                        </div>
+                        <!-- pata -->
+                        <div class="gallery-item">
+                            <img src="img/gallery/negresko.jpg" alt="Fresh Pasta" onerror="this.style.display='none'">
+                            <div class="gallery-overlay">
+                                <h4>Fresh Pasta</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/gallery/tagen.jpg" alt="Fresh Pasta" onerror="this.style.display='none'">
+                            <div class="gallery-overlay">
+                                <h4>Fresh Pasta 2</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/gallery/cofe_cup.jpg" alt="Premium Coffee" onerror="this.style.display='none'">
+                            <div class="gallery-overlay">
+                                <h4>Premium Coffee</h4>
+                            </div>
+                        </div>
+                        <!-- popa & ment -->
+                        <div class="gallery-item">
+                            <img src="img/gallery/popa.jpg" alt="Restaurant Popa" onerror="this.style.display='none'">
+                            <div class="gallery-overlay">
+                                <h4>Popa</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/gallery/blue_ment_juice.jpg" alt="Restaurant Blue Ment" onerror="this.style.display='none'">
+                            <div class="gallery-overlay">
+                                <h4>Blue Ment</h4>
+                            </div>
+                        </div>
+                        <!-- sweet -->
+                        <div class="gallery-item">
+                            <img src="img/gallery/cup_of_sweet.jpg" alt="Sweet" onerror="this.style.display='none'">
+                            <div class="gallery-overlay">
+                                <h4>Sweet</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/gallery/cup_of_sweet_2.jpg" alt="Sweet" onerror="this.style.display='none'">
+                            <div class="gallery-overlay">
+                                <h4>Sweet 2</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/gallery/cup_of_sweet_3.jpg" alt="Sweet" onerror="this.style.display='none'">
+                            <div class="gallery-overlay">
+                                <h4>Sweet 3</h4>
+                            </div>
+                        </div>
+                        <!-- break fast -->
+                        <div class="gallery-item">
+                            <img src="img/gallery/break_fast.jpg" alt="Breakfast" onerror="this.style.display='none'">
+                            <div class="gallery-overlay">
+                                <h4>Breakfast</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/gallery/break_fast_2.jpg" alt="Breakfast" onerror="this.style.display='none'">
+                            <div class="gallery-overlay">
+                                <h4>Breakfast 2</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/gallery/break_fast_3.jpg" alt="Breakfast" onerror="this.style.display='none'">
+                            <div class="gallery-overlay">
+                                <h4>Breakfast 3</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <!-- Contact Section -->
+<section class="content-section" id="contact" style="display: none;">
+    <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>Al-khazan street, El Arish, Egypt</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>0683339061</p>
+                        <p>01055009920</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>Working Hours</h4>
+                        <p>Saturday - Friday: 9:00 AM - 12:00 PM</p>
+                        <p>All Days</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-instagram"></i>
+                    <div>
+                        <h4>Follow Us</h4>
+                        <a href="https://www.instagram.com/pi_ck_you?igsh=NzFsZ3VnNTY4MzM4" target="_blank" rel="noopener noreferrer">@pi_ck_you</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-map">
+                <!-- <h3>Find Us Here</h3> -->
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d213.44919379017347!2d33.76090968859906!3d31.13231827178591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14fc2b49b3d8f23b%3A0x189daff2e8ec3779!2z2LPZiNio2LEg2YXYp9ix2YPYqiDYp9mE2LTYp9i52LE!5e0!3m2!1sen!2seg!4v1751112498287!5m2!1sen!2seg" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0; border-radius: 10px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="map-info">
+                    <p><strong>Address:</strong> Al-khazan street, El Arish, Egypt</p>
+                    <!-- <p><strong>Coordinates:</strong> 31.13°N, 33.76°E</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Restaurant Menu Section -->
+        <section class="menu" id="restaurant-menu">
+            <div class="container">
+                <h2 id="header-menu">Restaurant Menu</h2>
+
+                <div class="categories" id="categories">
+                    <!-- Categories will be populated by JavaScript -->
+                </div>
+                <div class="menu-items" id="menu-items">
+                    <button class="back-btn" onclick="showCategories()">← Back to categories</button>
+                    <div id="category-title"></div>
+                    <!-- Size Filter Tabs for specific category -->
+                    <div class="size-filters" id="category-size-filters">
+                        <!-- Size tabs will be populated by JavaScript -->
+                    </div>
+                    <div id="items-list"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cafe Menu Section -->
+        <section class="menu" id="cafe-menu">
+            <div class="container">
+                <h2 id="cafe-header-menu">cafe Menu</h2>
+
+                <div class="categories" id="cafe-categories">
+                    <!-- Categories will be populated by JavaScript -->
+                </div>
+                <div class="menu-items" id="cafe-menu-items">
+                    <button class="back-btn" onclick="showCategories()">← Back to categories</button>
+                    <div id="cafe-category-title"></div>
+                    <!-- Size Filter Tabs for specific category -->
+                    <div class="size-filters" id="cafe-category-size-filters">
+                        <!-- Size tabs will be populated by JavaScript -->
+                    </div>
+                    <div id="cafe-items-list"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Pick You</h3>
+                    <p>A distinctive restaurant and cafe serving the best dishes and drinks in a wonderful atmosphere.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact information</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-phone-volume"></i>  0683339061</li>
+                        <li><i class="fa-solid fa-phone"></i>  01055009920</li>
+                        <!-- <li>📧 Mail: info@pickyou.com</li> -->
+                        <li><i class="fa-solid fa-location-dot"></i> Al-khazan street , El Arish, Egypt</li>
+
+                        <li>
+                            <i class="fa-brands fa-instagram"></i> 
+                            <a href="https://www.instagram.com/pi_ck_you?igsh=NzFsZ3VnNTY4MzM4" target="_blank"
+                                rel="noopener noreferrer" style="text-decoration: none;color: #ffffff;">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Working hours</h3>
+                    <ul>
+                        <li>Saturday - Friday: 9:00 AM - 12:00 PM</li>
+                        <li>All Days</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pick You All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
